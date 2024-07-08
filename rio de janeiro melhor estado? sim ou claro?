@@ -1,0 +1,6 @@
+print ("-------- Removendo duplicatas da lista --------")
+
+duplicatas = ("sushi", "pôr do sol", "arte", "sushi", "Gal Costa", "Grécia", "pôr do sol", "sushi")
+retirando_duplicatas = list(set(duplicatas))
+
+print(retirando_duplicatas)
